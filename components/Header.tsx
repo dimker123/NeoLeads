@@ -55,7 +55,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
         </div>
 
         {/* Desktop Menu */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-8">
           {['Inicio', 'El Método', 'Soluciones', 'Precios', 'FAQ'].map((item, index) => {
              const ids = ['hero', 'method', 'sectors', 'pricing', 'faq'];
              return (
@@ -71,7 +71,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
         </nav>
 
         {/* CTA */}
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <button 
             onClick={() => handleNavigation('contact')}
             className="bg-white text-black px-6 py-2.5 rounded-full font-bold hover:bg-cyan-400 hover:scale-105 transition-all duration-300 shadow-[0_0_15px_rgba(255,255,255,0.4)]"
@@ -80,18 +80,18 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
           </button>
         </div>
 
-        {/* Mobile Toggle */}
+        {/* Mobile/Tablet Toggle */}
         <button 
-          className="md:hidden text-white"
+          className="lg:hidden text-white"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile/Tablet Menu */}
       {mobileMenuOpen && (
-        <div className="absolute top-full left-0 w-full glass-panel border-t border-gray-800 p-6 flex flex-col gap-6 md:hidden">
+        <div className="absolute top-full left-0 w-full bg-black border-t border-b border-gray-800 p-6 flex flex-col gap-6 lg:hidden shadow-2xl animate-in slide-in-from-top-5 duration-200">
           {['Inicio', 'El Método', 'Soluciones', 'Precios', 'FAQ'].map((item, index) => {
              const ids = ['hero', 'method', 'sectors', 'pricing', 'faq'];
              return (

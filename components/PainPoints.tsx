@@ -1,10 +1,10 @@
 import React from 'react';
-import { AlertTriangle, DollarSign, Clock, Frown } from 'lucide-react';
+import { AlertTriangle, Euro, Clock, Frown } from 'lucide-react';
 
 const PainPoints: React.FC = () => {
   const pains = [
     {
-      icon: <DollarSign className="w-8 h-8 text-red-500" />,
+      icon: <Euro className="w-8 h-8 text-red-500" />,
       title: "Presupuestos Abusivos",
       desc: "Agencias que te cobran 2.000€ por una web plantilla que no convierte visitas en dinero."
     },

@@ -12,6 +12,7 @@ import LegalNotice from './components/LegalNotice';
 import CookiesPolicy from './components/CookiesPolicy';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import WhatsAppButton from './components/WhatsAppButton';
+import ScrollToTopButton from './components/ScrollToTopButton';
 
 export type PageType = 'home' | 'legal' | 'cookies' | 'privacy';
 
@@ -44,6 +45,7 @@ export default function App() {
       </main>
       <Footer onNavigate={navigateTo} />
       <WhatsAppButton />
+      <ScrollToTopButton />
     </div>
   );
 }
