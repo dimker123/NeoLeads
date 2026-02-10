@@ -23,7 +23,7 @@ const Method: React.FC = () => {
               <div className="absolute -top-3 -right-3 w-8 h-8 bg-cyan-500 rounded-full flex items-center justify-center text-black font-bold">1</div>
             </div>
             <div className="text-center px-4">
-              <h3 className="text-2xl font-bold mb-4">Diseño Futurista <br/>(Conversión)</h3>
+              <h3 className="text-2xl font-bold mb-4">Diseño NeoLeads <br/>(Conversión)</h3>
               <p className="text-gray-400">
                 Creamos una Landing Page de alto rendimiento, optimizada psicológicamente para convertir visitantes en clientes. Estética premium que justifica tus precios.
               </p>

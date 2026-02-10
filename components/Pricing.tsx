@@ -16,7 +16,7 @@ const Pricing: React.FC = () => {
 
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="flex-1 text-center md:text-left">
-              <h3 className="text-3xl font-bold mb-2">Plan Neo150</h3>
+              <h3 className="text-3xl font-bold mb-2 mt-8 md:mt-0">Plan Neo150</h3>
               <p className="text-gray-400 mb-6">Todo lo que necesitas para dominar tu mercado local.</p>
               
               <div className="flex items-baseline justify-center md:justify-start gap-2 mb-2">
