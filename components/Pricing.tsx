@@ -3,7 +3,7 @@ import { CheckCircle2 } from 'lucide-react';
 
 const Pricing: React.FC = () => {
   return (
-    <section id="pricing" className="py-24 relative flex items-center justify-center">
+    <section id="pricing" className="py-12 md:py-24 relative flex items-center justify-center">
       {/* Background glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-cyan-500/10 rounded-full blur-[100px] pointer-events-none" />
 

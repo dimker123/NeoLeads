@@ -6,7 +6,7 @@ const LegalNotice: React.FC = () => {
   }, []);
 
   return (
-    <section className="pt-32 pb-24 min-h-screen bg-black relative overflow-hidden">
+    <section className="pt-24 pb-12 md:pt-32 md:pb-24 min-h-screen bg-black relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-violet-600/10 rounded-full blur-[120px] pointer-events-none" />
 

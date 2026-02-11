@@ -3,7 +3,7 @@ import { MapPin, Mail, ShieldCheck, ChevronDown, Phone } from 'lucide-react';
 
 const Contact: React.FC = () => {
   return (
-    <section id="contact" className="py-24 relative">
+    <section id="contact" className="py-12 md:py-24 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-black to-violet-900/20 pointer-events-none" />
       
       <div className="max-w-6xl mx-auto px-4 md:px-8 relative z-10 flex flex-col lg:flex-row gap-16">

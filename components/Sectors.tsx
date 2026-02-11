@@ -34,7 +34,7 @@ const Sectors: React.FC = () => {
   ];
 
   return (
-    <section id="sectors" className="py-24 bg-zinc-950">
+    <section id="sectors" className="py-12 md:py-24 bg-zinc-950">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
           Dominamos Estos <span className="text-cyan-400">Sectores</span>

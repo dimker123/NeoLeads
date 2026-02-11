@@ -3,7 +3,7 @@ import { Monitor, Rocket, MessageCircle } from 'lucide-react';
 
 const Method: React.FC = () => {
   return (
-    <section id="method" className="py-24 relative overflow-hidden">
+    <section id="method" className="py-12 md:py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-radial from-violet-900/20 to-black pointer-events-none" />
       
       <div className="max-w-7xl mx-auto px-4 md:px-8 relative z-10">
