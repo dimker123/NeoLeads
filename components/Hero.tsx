@@ -4,9 +4,15 @@ import { ChevronRight, TrendingUp } from 'lucide-react';
 const Hero: React.FC = () => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
-      {/* Background Elements */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] bg-violet-600/20 rounded-full blur-[120px] pointer-events-none" />
-      <div className="absolute bottom-0 right-0 w-[600px] h-[400px] bg-cyan-500/10 rounded-full blur-[100px] pointer-events-none" />
+      {/* Optimized Background Elements with Hardware Acceleration */}
+      <div 
+        className="absolute top-0 left-1/2 w-[800px] h-[500px] bg-violet-600/20 rounded-full blur-[120px] pointer-events-none" 
+        style={{ transform: 'translate3d(-50%, 0, 0)', willChange: 'transform' }}
+      />
+      <div 
+        className="absolute bottom-0 right-0 w-[600px] h-[400px] bg-cyan-500/10 rounded-full blur-[100px] pointer-events-none"
+        style={{ transform: 'translate3d(0, 0, 0)', willChange: 'transform' }}
+      />
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 relative z-10 text-center">
         <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-panel border-violet-500/30 mb-8 animate-pulse">
